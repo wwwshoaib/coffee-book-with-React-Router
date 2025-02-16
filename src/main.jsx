@@ -15,6 +15,7 @@ import CoffeeDetails from "./pages/CoffeeDetails";
 import Dashboard from "./pages/Dashboard";
 import CoffeeCards from "./components/CoffeeCards/CoffeeCards";
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -37,6 +38,7 @@ const router = createBrowserRouter([
       {
         path: '/coffees',
         element: <Coffees></Coffees>,
+       
       }, 
 
       {

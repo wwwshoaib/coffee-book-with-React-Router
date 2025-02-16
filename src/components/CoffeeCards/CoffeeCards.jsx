@@ -15,7 +15,7 @@ const CoffeeCards = () => {
         setCoffees(filteredByCategory);
        }
        else {
-        setCoffees(coffeeData.slice(0, 6));
+        setCoffees(coffeeData);
        }
     }, [coffeeData, category])
    
